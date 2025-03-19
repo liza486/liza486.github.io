@@ -10,13 +10,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(96, 49, 47, 0.397);
 }
 
 ul {
     width: 30%;
     align-items: center;
     padding: 1%;
-    background-color:antiquewhite;
+    background-color:rgb(170, 101, 128);
+    font-style: italic;
 }
 
 #main-information {
@@ -30,4 +32,5 @@ ul {
 
 #main-information img {
     height: 600px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
 }
